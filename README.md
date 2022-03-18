@@ -1,1 +1,2 @@
-# go-cards
+# Cards
+Simulates a deck of cards.
