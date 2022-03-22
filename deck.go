@@ -24,6 +24,7 @@ func newDeck() deck {
 	return cards
 }
 
+// d is a reference to the cards variable
 func (d deck) print() {
 	for i, card := range d {
 		fmt.Println(i, card)
