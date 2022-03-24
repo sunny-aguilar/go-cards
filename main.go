@@ -7,6 +7,7 @@ func main() {
 	cards.shuffle()
 	cards.print()
 
+	evenOdd()
 	// hand, remainingDeck := deal(cards, 5)
 	// hand.print()
 	// remainingDeck.print()
