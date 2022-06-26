@@ -19,7 +19,7 @@ func newDeck() deck {
 	cardSuits := []string{"Spades", "Diamonds", "Hearts"}
 	cardValues := []string{"Ace", "Two", "Three"}
 
-	// _ means variable acknowledge but not needed
+	// _ means variable acknowledge but not used
 	for _, suit := range cardSuits {
 		for _, value := range cardValues {
 			cards = append(cards, value+" of "+suit)
